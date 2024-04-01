@@ -1,0 +1,112 @@
+  AssetManagerV100.AssetMasterForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.DriversForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.InsurancePolicyForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.InsuredAssetForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.MainMenuForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.ServiceReasonForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.ServiceTaskForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.SettingsForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.VehicleForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.VehicleServiceDetailsForm.resources - Embedded, ContainedInManifestFile, 
+  AssetManagerV100.VehicleServiceForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Asset Manager V1.00, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class User: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String name : Public
+    System.String email : Public
+    System.String phone : Public
+    System.String address : Public
+    System.String password : Public
+    Int32 userType : Public
+    Int32 colorScheme : Public
+Class AssetManagerV100.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
+Class AssetManagerV100.VehicleServiceDetailsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.VehicleServiceForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.MainMenuForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
+    Int32 formNumber : Public
+Class AssetManagerV100.AssetMasterForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 assetNo : Public
+    System.String assetType : Public
+    System.String plate : Public
+    System.String Description : Public
+    System.String Make : Public
+    System.String Model : Public
+    System.String Serial : Public
+    System.DateTime aquiredDate : Public
+    System.String purchaseCost : Public
+    System.DateTime dateSold : Public
+    System.String soldPrice : Public
+    System.DateTime retiredDate : Public
+    System.String Status : Public
+    System.String Notes : Public
+    System.String Department : Public
+    System.DateTime warrantyExpiryDate : Public
+    System.String ERPCode : Public
+    System.String POCostAccount : Public
+    System.String WIPAccount : Public
+Class AssetManagerV100.VehicleForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.DriversForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 DPN : Public
+    System.String fName : Public
+    System.String lName : Public
+    System.String DPExpirationDate : Public
+Class AssetManagerV100.InsuredAssetForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.ServiceTaskForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.ServiceReasonForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class AssetManagerV100.InsurancePolicyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Policy : Public
+    System.Decimal Cost : Public
+    System.String Vendor : Public
+    System.DateTime renewalDate : Public
+    System.String Notes : Public
+Class AssetManagerV100.SettingsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
